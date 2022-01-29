@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{ /*Alterações gerais*/
+    border: 0px;
+    margin: 0px;
+    
+}
+
+#topo{ /*Criação da aparência do topo*/
+    border-bottom: solid 1px black;
+    top: 100px;
+    max-width: 98%;
+    height: 100px;
+    margin-left: 10px;
+    
+}
+
+#img{ /*Posicionamento da imagem*/
+    position: absolute;
+    left: 50px;
+}
+
+#menus{ /*Posicionamento do menu*/
+    position: absolute;
+    left:40%;
+    top: 20px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+#menus a{ /*Configuração de links*/
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
