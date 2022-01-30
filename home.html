@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+    }
+    main{
+        margin: 0px;
+    }
+    #cabeca{
+        background-color: blue;
+        width: 100%;
+        height: 100px;
+        margin-top: 0px;
+    }
+    .posi{/*Estamos colocando as divs em linha*/
+        display: inline-block;
+    }
+    #pEsq{
+        background-color: yellow;
+        width: 45%;
+        height: 60px;
+        margin: 5px;
+    }
+    #pDir{
+        background-color: yellowgreen;
+        width: 45%;
+        height: 60px;
+        margin: 5px;
+    }
+    #conteudo{
+        background-color: blueviolet;
+        width: 100%;
+        height: 500px;
+    }
+    div.contmeio{ /*Aqui estamos colocando as divs em linha, uma do lado da oura */
+        display: inline-block;
+        
+    }
+    #esquerda{
+        background-color: azure;
+        width: 40%;
+        height: 420px;
+        margin: 20px;
+        padding: 20px;
+    }
+    #direita{
+        background-color: antiquewhite;
+        width: 40%;
+        height: 420px;
+        margin: 20px;
+        padding: 20px;
+    }
+    footer{
+        background-color: brown;
+        width: 100%;
+        height: 50px;
+    }
+</style>
+<body>
+    <main>
+        <header id="cabeca">
+            <div class="posi" id="pEsq">
+                <p>topo esquerdo</p>
+            </div>
+            <div class="posi" id="pDir">
+                <p>topo direito</p>
+            </div>
+
+        </header>
+        <article id="conteudo">
+            <div class="contmeio" id="esquerda">
+                <p>Esquerda</p>
+            </div> 
+            <div class="contmeio" id="direita">
+                <p>Direita</p>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>Rodapé</p>
+    </footer>
+    
+</body>
+</html>
