@@ -75,4 +75,15 @@ footer p{
         padding: 1px;
         text-decoration: underline;
     }
+    #texto_home{
+        position: relative;
+        top: -30px;
+        width: 70%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        text-align: justify;
+        padding: 10px;
+        
+    }
+    
 }  
