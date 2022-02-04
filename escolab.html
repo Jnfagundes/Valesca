@@ -9,13 +9,30 @@
     <title>Minha escola bilíngue</title>
 </head>
 <style>
+    #corpo_bilingue{
+        width: 98%;
+        height: 50%;
+    }
     .bili{
         display: inline-block;
     }
     #texto_bilingue{
         font-family: Arial, Helvetica, sans-serif;
         padding: 10px;
-        width:600px;
+        width:60%;
+    }
+    #img_bili{
+        height: auto;
+    }
+    #fundo{
+        padding-top: 80px;
+        border: none;
+    }
+    @media (max-width:800px) {
+        #texto_bilingue{
+            width:400px; 
+        }
+        
     }
 </style>
 <body>
@@ -57,5 +74,8 @@
             </div>
         </article>
     </main>
+    <footer id="fundo">
+        <p>Desenvolvido por José Nilton</p>
+    </footer>
 </body>
 </html>

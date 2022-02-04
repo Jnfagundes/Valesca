@@ -39,7 +39,7 @@ nav > a:hover{
 article{
     background-image: linear-gradient(to bottom, rgb(222, 222, 238), rgb(102, 102, 223), rgb(46, 46, 156));
     width: 98%;
-    height: 650px;
+    height: 70%;
     border-radius: 20px;
     box-shadow: 2px 2px 0px rgba(7, 7, 82, 0.384);
     margin-top: 20px;
@@ -47,91 +47,32 @@ article{
     margin-left: 10px;
     
 }
-hr{
-    width: 90%;
-    padding: 10px;
-}
-
-.meio{ /*Organização do conteúdo*/
-    position: relative;
+.meio{
     display: inline-block;
-    margin-bottom: 10px;
-    
 }
-#imag{
-    position: absolute;
-    top: 225px;
-    width: 35%;
-    margin: 0px;
-}
-#texto_home{ /*Posicionando o texto ao lado da imagem*/
-    max-width: 900px;
-    position: absolute;
-    width: 60%;
-    left: 300px;
-    top: 150px;
-    margin: 30px;
-}
-#texto_home h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-shadow: 1px 1px 0px blue;
+.meio h1{
     border-bottom: solid 1px blue;
-    padding: 0px;
-    font-size: 2em;
-    margin: 20px;
+    text-shadow: 1px 1px 0px white;
 }
-#texto_home p{
+#texto_home{
+    position: relative;
+    top: -30px;
+    width: 70%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
-    text-indent: 10px;
-    line-height: 25px;
-}
-footer{
+    text-align: justify;
     padding: 10px;
-    border-top: solid 1px black;
-    right: auto;
+    
 }
 footer p{
     text-align: center;
-} 
+}
+
 @media (max-width: 800px) {
     nav > a{ /*Menus para smartphones*/
-        font-size: 0.8em;
+        font-size: 1em;
         margin: 2px;
         padding: 1px;
         text-decoration: underline;
     }
-    article{
-        height: 600px;
-        margin: 0px;
-    }
-    .meio{  /*Organização do conteúdo*/
-        display: inline-block;
-        margin-bottom: 0px;
-    }
-    #imag{ 
-       position: relative;
-       top: 270px;
-       padding: 0px;
-       margin: 0px;
-    }
-    #texto_home{
-        left:10px;
-        width: 370px;
-    }
-    #texto_home h1{
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        text-shadow: 1px 1px 0px blue;
-        border-bottom: solid 1px blue;
-        padding: 0px;
-        font-size: 1em;
-        margin: 0px;
-    }
-    #texto_home p{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 0.8em;
-        text-indent: 0.2px;
-        text-align: justify;
-    }
-        
-}
+    
