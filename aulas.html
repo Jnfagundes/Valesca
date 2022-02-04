@@ -8,18 +8,108 @@
     <link rel="stylesheet" href="style/estilo.css">
     <title>Minha escola bilíngue</title>
 </head>
+<style>
+    .aula{
+        display: inline-block;
+        width: 50%;
+    }
+    .aulas{
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 80%;
+        margin: 15px;
+    }
+    .aulas > h4{
+        border-bottom: solid 1px blue;   
+    }
+    #texto_online{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 80%;
+        margin: 15px;
+    }
+    #texto_online h4{
+        border-bottom: solid 1px blue;
+    }
+    #aulaonline{
+        width: 45%;
+        background-color: white; 
+    }
+    #estudos{
+        margin: 5px;
+    }
+    #imgonline{
+        padding-left: 20px;
+    }
+    @media(max-width:800px){
+        .aula{
+            display: block;
+            width: 95%;
+        }
+        #aulaonline{
+            width: 95%;
+        }
+    }
+    
+</style>
 <body>
     <header id="topo">
         <div class="top" id="img"><img src="imagens/Oficial_Logo_Trans1PQ.png" alt="Logo do site Conviver"></div>
         <div class="top" id="menus">
             <nav>
                 <a href="index.html">HOME</a>
+                <a href="aulas.html">AULAS</a>
                 <a href="escolab.html">MINHA ESCOLA BILÍNGUE</a>
                 <a href="conheca.htm">CONHEÇA-NOS</a>
-                <a href="aulas.html">AULAS</a>
+                
             </nav>
         </div>
     
     </header>
+    <article class="aula">
+        <div class="aulas" id="presencial" >
+            <h4>Aulas presenciais</h4>
+
+            <p>Você quer ter aulas presenciais de inglês com metodologia simplificada, sem custos com materiais, livros e parcelamento de 12 vezes sem juros?</p>
+
+            <p>Entre em contato conosco e veja a disponibilidade de horários.</p>
+
+            <ul>
+                <li>Aulas 1 vez por semana.</li>
+                <li>2 horas por aula.</li>
+                <li>Até 8 alunos por turma.</li>
+            </ul>
+            <p>O centro de idiomas conviver funciona em parceria com o Centro educacional mineiro!</p>
+
+        </div>
+        <picture>
+            <source media="(max-width: 1100px)" srcset="imagens/estudos001.jpg" type="image/jpg">
+            <img src="imagens/estudos.jpg" alt="Pessoas estudando" id="estudos">
+        </picture>
+    </article>
+    <article class="aula" id="aulaonline" >
+            <div id="texto_online">
+                <h4>Precisando de aulas de inglês e não tem tempo para se deslocar até uma escola? Simples!</h4> 
+            <p>Faça aulas direto do seu celular:</p>
+            <ul>
+                <li>Sem instalação de aplicativos pesados.</li>
+                <li>A aula fica gravada.</li>
+                <li>Aula especifica para cada nível.</li>
+                <li>O material disponibilizado nas aulas fica gravado.</li>
+                <li>Você não paga por materiais impressos.</li>
+                <li>Pode parcelar seu curso em até 12 vezes sem juros.</li>
+            </ul>
+
+            <h5>“Bora fazer uma aula experimental?” </h5>
+
+            </div>
+            <picture>
+                <source media="(max-width: 1100px)" srcset="imagens/online001.jpg" type="image/jpg">
+                <img src="imagens/online.jpg" alt="Estudo online" id="imgonline" >
+            </picture>
+            
+    </article>
+    <footer>
+        <p>Desenvolvido por José Nilton </p>
+    </footer>
 </body>
 </html>
